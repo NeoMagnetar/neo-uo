@@ -310,3 +310,30 @@ A controlled Dev-only retest proved that the previous CharacterCreation patch co
 **Test Status:** Passed  
 **Notes / Risks:** This was a Dev-only fix. Siege activation may have broader ruleset implications in Dev beyond start-facet behavior, but it aligns with the intended hardcore/Felucca direction for this environment.  
 **Next recommended step:** continue Dev-only shard work with the assumption that Felucca-first behavior is now the active baseline for Dev
+
+---
+
+## Entry 012 — Dev NeoWall Painter Added and Validated
+**Status:** Complete  
+**Date:** 2026-04-11
+
+**Task**  
+Add a Dev-only GM wall painter so perimeter shapes can be sketched live in-world one tile at a time.
+
+**Summary**  
+Implemented `NeoWallStart`, `NeoWallStop`, and `NeoWallClear` in the Dev shard and rebuilt/restarted Dev successfully. The operator later confirmed that the wall painter works in live Dev use, providing a reliable manual perimeter-sketching tool for the League prototype zone.
+
+**Files Changed**  
+- `C:\UO\Server\Neo Ultima Online\NeoUO-Dev\Scripts\Custom\NeoWallPainter.cs`
+- `C:\Users\Magne\Desktop\neo uo\01_logs\SESSION-LOG-2026-04-11-NEOWALL-PAINTER.md`
+- `C:\Users\Magne\Desktop\neo uo\01_logs\PUBLISH-LOG-1.md`
+
+**Behavior Impact**  
+- Dev GM can now paint wall sections interactively while moving
+- painted wall sections can be cleared and redrawn cleanly
+- perimeter shaping no longer depends on blind pre-scripted coordinate guesses
+
+**Restart Required:** Yes — already completed for Dev  
+**Test Status:** Passed  
+**Notes / Risks:** First version uses a single solid wall tile type; future refinement can add orientation or alternate tile sets if needed  
+**Next recommended step:** use the wall painter to sketch the full intended south/east boundary, then capture anchor coordinates for any future scripted cleanup or conversion work
