@@ -218,3 +218,95 @@ From this point forward, every completed task should be followed by a new publis
 - test status
 - notes/risks
 - next recommended step
+
+---
+
+## Entry 009 � Dev Shard Felucca-Only Britain Start and Trammel Lockdown
+**Status:** Complete  
+**Date:** 2026-04-10
+
+**Task**  
+Convert the Dev shard to a practical Felucca-only player flow without unregistering Trammel from the engine.
+
+**Summary**  
+Created a pre-change Dev snapshot, forced all new characters in Dev to start in Britain / The Wayfarer's Inn / Felucca using the built-in siege start definition, restricted the public moongate system to Felucca-only routing, and patched the physically stuck flow so it no longer routes players into Trammel.
+
+**Files Changed**  
+- `C:\UO\Server\Neo Ultima Online\NeoUO-Dev\Scripts\Misc\CharacterCreation.cs`
+- `C:\UO\Server\Neo Ultima Online\NeoUO-Dev\Scripts\Items\Functional\PublicMoongate.cs`
+- `C:\UO\Server\Neo Ultima Online\NeoUO-Dev\Scripts\Services\Help\StuckMenu.cs`
+
+**Behavior Impact**  
+- New Dev-shard characters now start at Britain / The Wayfarer's Inn / Felucca
+- Default public moongate routing now exposes Felucca only in Dev
+- Physically stuck no longer routes players into Trammel in Dev
+- Trammel remains registered in code for stability but is removed from the default player flow patched in this task
+
+**Restart Required:** Yes  
+**Test Status:** Dev build succeeded and Dev shard booted cleanly on `127.0.0.1:2594`  
+**Notes / Risks:** Narrow-scope patch only; larger travel surfaces such as custom portals, recall/gate systems, veteran reward portals, and other specialty transport surfaces were not broadly redesigned in this task  
+**Next recommended step:** perform manual in-client verification of fresh character start, public moongate menu, and physically stuck menu on Dev, then decide whether the Dev shard is ready for staging review
+
+---
+
+## Entry 010 � Desktop Launchers for Main, Dev, and Staging
+**Status:** Complete  
+**Date:** 2026-04-10
+
+**Task**  
+Create one-click desktop launchers for Main, Dev, and Staging with automatic client routing.
+
+**Summary**  
+Backed up the existing ClassicUO active config, created separate environment-specific ClassicUO settings files, created three environment-aware launcher scripts, placed three desktop shortcuts with the exact requested names, and documented the launcher system in both HQ and code repositories.
+
+**Files Changed or Created**  
+- `C:\UO\Client\ConfigBackups\settings-20260410-181228-pre-launchers.json`
+- `C:\UO\Client\ClassicUO\settings.main.json`
+- `C:\UO\Client\ClassicUO\settings.dev.json`
+- `C:\UO\Client\ClassicUO\settings.staging.json`
+- `C:\Users\Magne\Desktop\NeoUO Main.lnk`
+- `C:\Users\Magne\Desktop\NeoUO Dev.lnk`
+- `C:\Users\Magne\Desktop\NeoUO Staging.lnk`
+- `C:\Users\Magne\Desktop\neo uo\03_operations\local-launchers.md`
+- `C:\Users\Magne\Desktop\neo uo\01_logs\SESSION-LOG-2026-04-10-LAUNCHERS.md`
+- `C:\Users\Magne\Desktop\neo-uo-code\tools\NeoUO-Main-Launcher.ps1`
+- `C:\Users\Magne\Desktop\neo-uo-code\tools\NeoUO-Dev-Launcher.ps1`
+- `C:\Users\Magne\Desktop\neo-uo-code\tools\NeoUO-Staging-Launcher.ps1`
+- `C:\Users\Magne\Desktop\neo-uo-code\docs\implementation-notes\local-desktop-launchers.md`
+
+**Behavior Impact**  
+- Operator now has one-click startup choices for Main, Dev, and Staging
+- Manual port editing is no longer required for normal local environment switching
+- Client routing now follows the selected environment launcher
+
+**Restart Required:** No  
+**Test Status:** Launcher artifacts created and documented; environment routing validated by configuration design and port mapping  
+**Notes / Risks:** Launchers rewrite the active ClassicUO `settings.json` at launch time using backed-up, environment-specific copies; this is intentional and backed by a saved original config  
+**Next recommended step:** perform a quick live click-test of each desktop launcher once to confirm Main=2593, Dev=2594, and Staging=2595 in actual operator use
+
+---
+
+## Entry 011 — Dev Felucca Start Fix via Siege Activation
+**Status:** Complete  
+**Date:** 2026-04-10
+
+**Task**  
+Fix the failed Dev validation where fresh characters were still spawning in Britain on the Trammel facet.
+
+**Summary**  
+A controlled Dev-only retest proved that the previous CharacterCreation patch corrected the start location but not the final facet. Deeper tracing found a built-in downstream map correction path in `PlayerMobile.cs` that only forces Trammel players to Felucca when `Siege.SiegeShard` is enabled. The Dev shard still had `IsSiege=false`, so the intended Felucca enforcement path never activated. Dev siege mode was enabled, the shard was restarted, and the fresh-character retest then passed.
+
+**Files Changed**  
+- `C:\UO\Server\Neo Ultima Online\NeoUO-Dev\Config\Siege.cfg`
+- `C:\Users\Magne\Desktop\neo uo\01_logs\SESSION-LOG-2026-04-10-FELUCCA-START-FIX.md`
+- `C:\Users\Magne\Desktop\neo uo\01_logs\PUBLISH-LOG-1.md`
+
+**Behavior Impact**  
+- Dev shard now runs with siege mode enabled
+- Fresh Dev characters now start in Britain on Felucca as intended
+- Prior ambiguity between correct coordinates and wrong facet was resolved through the proper built-in siege path
+
+**Restart Required:** Yes — completed for Dev  
+**Test Status:** Passed  
+**Notes / Risks:** This was a Dev-only fix. Siege activation may have broader ruleset implications in Dev beyond start-facet behavior, but it aligns with the intended hardcore/Felucca direction for this environment.  
+**Next recommended step:** continue Dev-only shard work with the assumption that Felucca-first behavior is now the active baseline for Dev
