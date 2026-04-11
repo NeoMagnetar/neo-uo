@@ -4,6 +4,9 @@
 
 Validated that the NeoUO Dev shard now uses an explicit server-side client data path and no longer requires the original shared `C:\UO\Client\UOFiles` lane to boot or accept login.
 
+Related technical implementation note:
+- `neo-uo-code/docs/DEV-LANE-VALIDATION-2026-04-11.md`
+
 ## Environment
 
 - Dev shard root: `C:\UO\Server\Neo Ultima Online\NeoUO-Dev`
