@@ -2,26 +2,85 @@
 
 ## Current Overall State
 
-Project state: pre-production / structured planning.
+Project state: structured pre-production.
 
-## Phase Snapshot
+The repo has moved beyond scaffold-only status and now has a real doctrine spine.
+The next project need is to bridge from design documentation into implementation-target clarity and local testing readiness.
 
-- Phase 0 — Foundation and Documentation: in progress
-- Phase 1 — Playable Local Baseline: planned
-- Phase 2 — Death, Continuity, and Progression Core: planned
-- Phase 3 — Hunt and Combat Identity: planned
-- Phase 4 — Closed Playtest: later
-- Phase 5 — Arena Mode Prototype: later
-- Phase 6 — World Expansion Systems: later
-- Phase 7 — Strongholds and Siege Layer: much later
+## Phase State
 
-## Current Focus
+### Phase 0 — Foundation and Documentation
 
-- repo structure and documentation stabilization
-- master PRD and system page initialization
-- MVP boundary clarification
-- local test preparation planning
+Status: active / nearing stable baseline
 
-## Immediate Success Condition
+### Phase 1 — Playable Local Baseline
 
-Move from planning-only state into a clean local prototype loop with defined first implementation targets.
+Status: next
+
+### Phase 2 — Death, Continuity, and Progression Core
+
+Status: queued after local baseline readiness
+
+### Phase 3 — Hunt and Combat Identity
+
+Status: queued after identity-prototype readiness
+
+### Phase 4 — Closed Playtest
+
+Status: later
+
+### Phase 5 — Arena Mode Prototype
+
+Status: later
+
+### Phase 6 — World Expansion Systems
+
+Status: later
+
+### Phase 7 — Strongholds and Siege Layer
+
+Status: much later
+
+## Current Active Concentration
+
+- tighten the planning spine
+- identify concrete first prototype targets
+- prepare for local test execution
+- preserve identity boundaries before deeper expansion
+
+## Immediate Next Transition
+
+The project should transition from:
+
+documentation-first
+to
+documentation plus prototype-target planning
+
+That means the next practical milestone is not more broad design pages.
+It is clearer mapping from design pages to testable implementation slices.
+
+## Current Green Lights
+
+The following are now strong enough to guide future work:
+
+- core project identity
+- death / continuity direction
+- wound / recovery direction
+- tracking direction
+- scarcity and ecology direction
+- capture and political doctrine direction
+
+## Current Missing Pieces
+
+The following still need deeper execution-oriented treatment:
+
+- exact first implementation targets
+- first prototype rulesets
+- local operations details
+- test-case definitions
+- progression specifics
+- combat variable assumptions
+
+## Current Project Rule
+
+Do not expand sideways faster than the project deepens its center.
