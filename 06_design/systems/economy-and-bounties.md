@@ -2,25 +2,208 @@
 
 ## Purpose
 
-Define how scarcity, value, and social pressure operate in the world.
+Define how Neo UO handles scarcity, gold value, item relevance, target value, and long-term pressure on important characters.
+
+This system is not meant to produce a high-throughput farming economy. It exists to make resources, targets, and survival materially meaningful.
 
 ## Player Experience Goal
 
-Gold, resources, and famed targets should matter enough to drive choices and conflict.
+The player should feel that:
 
-## Doctrine
+- gold matters
+- carrying resources matters
+- what they choose to invest in matters
+- surviving with valuables matters
+- and notable characters or targets become worth pursuing
 
-- gold should be scarcer than in more disposable shard loops
-- resource choices should matter
-- long-lived or high-value characters should attract attention
-- bounty logic should increase pressure without making survival impossible
+## Design Position
+
+Neo UO should prefer:
+
+- scarcity
+- logistical choice
+- selective gain
+- and politically meaningful value
+
+over:
+
+- endless inflation
+- constant disposable loot churn
+- and low-consequence wealth loops
+
+## Core Economy Doctrine
+
+### Law 1 — Scarcity Must Create Decisions
+
+The point of lower abundance is not deprivation alone. It is to make choices matter.
+
+### Law 2 — Value Must Be Exposed to Risk
+
+Resources only matter if acquiring, holding, carrying, and storing them involves meaningful decisions.
+
+### Law 3 — Long-Lived Targets Must Accumulate Social and Economic Weight
+
+Survival should increase not just prestige, but also reason for the world to care.
+
+## Gold Philosophy
+
+Gold should be less abundant than in more disposable shard loops.
+
+### Why
+
+- preserve value
+- reduce autopilot farming
+- make losses more meaningful
+- make route, extraction, and storage matter more
+
+### Constraint
+
+Gold scarcity must not become so extreme that ordinary play stalls.
+
+Neo UO should create:
+
+- tension in spending
+- care in preparation
+- and actual resource prioritization
+
+not:
+
+- permanent paralysis from poverty
+
+## Resource Philosophy
+
+Resources should matter at multiple levels:
+
+- immediate survival and supplies
+- crafting and preparation
+- hidden storage decisions
+- trade and ransom potential later
+- strategic scarcity later
+
+The economy should push players to ask:
+
+- what do I take?
+- what do I leave?
+- what do I hide?
+- what do I risk carrying home?
+
+## Item Value Philosophy
+
+Important items should eventually matter for more than raw stats.
+
+They may matter because of:
+
+- rarity
+- utility
+- survival value
+- social visibility
+- political meaning
+- renown
+
+This ties directly into later renowned-item systems.
+
+## Bounty Philosophy
+
+Bounties are one of the best ways to make long-lived characters matter to the world without simply inflating their stats.
+
+### What Bounties Should Do
+
+- increase pressure on notable survivors
+- create a reason to hunt important targets
+- reward information and organization
+- make certain lives feel economically and politically significant
+
+### What Bounties Must Not Do
+
+- guarantee every famous player is instantly dogpiled out of play
+- flatten every guild interaction into money only
+- make long-term survival impossible
+
+### Intended Bounty Role
+
+Bounties should help create:
+
+- target visibility
+- social pressure
+- world attention
+- conflict catalysts
+- rivalry escalation
+
+They are part economy, part politics, part world memory.
+
+## Economy and Logistics Link
+
+This system depends heavily on:
+
+- scarcity tuning
+- carry weight
+- storage logic
+- hidden stashes later
+- survival pressure after combat
+
+Neo UO’s economy should feel lived-in, not spreadsheet-only.
+
+## MVP Version
+
+The MVP economy should likely focus on:
+
+- lower gold abundance direction
+- more meaningful cost pressure
+- early item-value philosophy
+- no full bounty ecosystem yet unless simple to prototype
+
+### MVP Goal
+
+Make resources feel more meaningful before making bounty systems deep.
+
+## Later Expansion Version
+
+Later versions may add:
+
+- visible bounty layers
+- stronger long-lived target pressure
+- item renown interactions
+- ransom-linked economy
+- political and guild target economics
+- trade pressure around survival-critical gear
+
+## Design Risks
+
+### Risk: Scarcity Becomes Chore
+
+If players only feel deprived, the economy will feel restrictive instead of meaningful.
+
+Mitigation:
+
+- preserve gains that feel worthwhile
+- make scarcity produce interesting decisions
+
+### Risk: Bounties Become Oppressive
+
+If surviving players become impossible to keep alive due to constant stacking pressure, the system undermines itself.
+
+Mitigation:
+
+- increase pressure without guaranteeing deletion
+- balance notoriety and survivability carefully
+
+### Risk: Economy Remains Too Disposable
+
+If gold and resources still flow too freely, the identity weakens.
+
+Mitigation:
+
+- tune abundance down early
+- connect gain to risk and extraction
 
 ## Open Questions
 
+- what first gold-scarcity target should be tested?
 - how visible should bounties be?
-- how scarce should gold become before play stalls?
-- what economic pressure should operate on heroes, traders, and hunters?
+- what should make a target eligible or especially valuable?
+- how do economic values connect to capture, ransom, and renowned items later?
+- what should remain rare enough to create actual negotiation?
 
-## Current Status
+## Current Direction
 
-Initial doctrine established.
+Neo UO should create an economy where scarcity, transport, target value, and survival all matter more than raw accumulation speed.
