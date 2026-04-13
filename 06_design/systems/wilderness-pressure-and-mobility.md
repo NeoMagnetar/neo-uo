@@ -113,6 +113,41 @@ This creates:
 - local survival expertise
 - dynamic risk chains
 
+## Experimental Directions
+
+The following ideas have been discussed and should remain preserved:
+
+### Apex Predator Pursuit
+
+- some animals or creatures may follow players for meaningful stretches once provoked or once territory is entered
+- apex threats may create route denial rather than simple fight-or-ignore behavior
+- the goal is pressure, not infinite inescapable dragging
+
+### Prey Behavior
+
+- deer or similar prey should not behave like weak melee targets
+- prey may need ranged pressure or ambush to secure
+- wounding prey may change its movement and make the second stage of the hunt different
+
+### Patrol Pressure
+
+- certain roads or routes may have patrol presence
+- patrols may create scouting, scan, or follow pressure
+- travel decisions should change based on these known or learned risks
+
+### Burden and Loadout Effects
+
+- heavy gear should matter more
+- carrying more should change what a player can chase or flee from
+- logistics choices should shape mobility
+
+### Escape Into New Danger
+
+- players fleeing one threat may be forced into another dangerous space
+- this should make map knowledge and route memory matter much more
+
+These ideas are preserved as real exploration space, not final AI or movement specs.
+
 ## MVP Version
 
 The MVP should likely include:

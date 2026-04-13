@@ -116,6 +116,41 @@ Lower carry freedom supports:
 
 This system must be tuned carefully so that it creates pressure, not constant annoyance.
 
+## Experimental Directions
+
+The following ideas have been discussed and should stay visible for future exploration:
+
+### Lower-Density World Variants
+
+- drastically fewer animals and monsters overall
+- fewer but more meaningful encounters
+- less constant engagement, more ambient risk
+
+### Harder Individual Encounter Meaning
+
+- a grizzly bear or apex creature should feel like a real event
+- a small pack should be a tactical problem, not filler
+- some creatures may be intentionally not worth fighting unless the player is ready
+
+### Resource and Gold Tightening
+
+- gold should feel reduced and meaningful
+- supplies should require real choice
+- transport and storage decisions should create tension
+
+### Hidden Stash Possibilities
+
+- players may stash valuables in the field if they cannot safely extract
+- those stashes should still carry discovery risk
+- field storage should support survival, not erase consequence
+
+### Encounter Significance Over Farming Volume
+
+- training should come from more meaningful, slower, riskier interactions
+- the world should encourage deliberate engagement instead of chain-kill loops
+
+These remain exploratory tuning and system-space directions.
+
 ## MVP Version
 
 The MVP should likely include:

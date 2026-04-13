@@ -69,6 +69,35 @@ Arena mode gives Neo UO:
 - world social leverage
 - world scarcity meaning
 
+## Experimental Directions
+
+The following ideas are part of the preserved Neo UO design space:
+
+### Arena as a Hook
+
+- arena may attract players who are not yet ready for the survival world
+- arena may keep existing world players engaged on lower-risk sessions
+- arena may serve as a bridge between unfamiliar players and Neo UO’s core combat grammar
+
+### Shared Ability Language
+
+- some later combat additions may appear in both arena and world
+- the feel of fighting should remain related across both modes
+- the stakes, economy, and persistence should remain separate
+
+### LoL-Inspired Direction
+
+- later arena formats may borrow from structured battleground or lane-based inspiration
+- this is exploratory, not current MVP commitment
+- any such mode should still feel like Neo UO rather than a disconnected imported game
+
+### Broader Retention Function
+
+- some players may visit Neo UO for arena sessions while remaining only part-time world players
+- that is acceptable if the two modes reinforce rather than erase each other
+
+These ideas are preserved as real part of the project’s intended horizon.
+
 ## First Arena Version
 
 The first arena version should be intentionally narrow.

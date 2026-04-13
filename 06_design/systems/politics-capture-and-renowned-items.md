@@ -131,6 +131,42 @@ The healthier long-term model is circulation pressure, not crude prohibition.
 
 The exact method is later work.
 
+## Experimental Directions
+
+The following ideas from discussion should remain explicitly preserved:
+
+### Guild Heroes and Social Stakes
+
+- guilds may develop famous living players
+- killing, capturing, or ransoming those players should matter beyond ordinary PvP
+- heroes may accumulate prestige, risk, and political weight
+
+### Capture and Ransom Variants
+
+- an important defeat may become capture rather than immediate death
+- the captor may seek ransom, leverage, or exchange
+- the victim’s guild may organize a rescue
+- the captured player should be able to continue on another character rather than sit in forced live downtime
+
+### Prison / Holding-State Concepts
+
+- a captured character may exist in a holding state tied to a place, group, or timer
+- the fiction of imprisonment can exist without demanding real-time live imprisonment from the player
+
+### Renowned Gear Concepts
+
+- some gear may become well-known and socially valuable
+- some items may become worth trading for, hunting for, rescuing, or negotiating over
+- certain gear should not simply disappear forever into private forgotten banking
+
+### Anti-Hoarding Concerns
+
+- important items may need circulation pressure
+- the world should care who has them
+- systems should encourage exposure or maintenance instead of permanent vault burial
+
+These are not locked mechanics yet. They are important preserved directions.
+
 ## MVP Version
 
 The MVP should not try to build the full capture-politics network immediately.

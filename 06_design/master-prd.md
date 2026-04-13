@@ -222,6 +222,30 @@ Neo UO should support:
 
 The world should accumulate stories.
 
+## Experimental Direction Note
+
+Neo UO includes a wider experimental design space than what is locked in this PRD.
+
+That space includes:
+
+- survivability variants
+- healing reduction variants
+- higher-skill-cap possibilities
+- deeper predator and prey behavior
+- hidden stash models
+- capture and rescue structures
+- item renown and circulation pressure
+- later deity and utility systems
+- later stronghold and siege logic
+- arena expansion paths
+
+These ideas are real parts of the project discussion and should be preserved, but not treated as final rules until they are separately promoted through design or prototype work.
+
+See:
+
+- `06_design/design-exploration.md`
+- `06_design/systems/experimental-directions-index.md`
+
 ## MVP Scope
 
 The MVP should prove the identity, not the full dream.
@@ -274,4 +298,4 @@ Neo UO should avoid becoming:
 
 The current project phase is structured pre-production moving toward local prototype iteration.
 
-The immediate priority is to refine the design spine, preserve identity boundaries, and prepare the first implementation and local test passes around the most defining systems.
+The immediate priority is to refine the design spine, preserve identity boundaries, preserve the broader idea-space, and prepare the first implementation and local test passes around the most defining systems.

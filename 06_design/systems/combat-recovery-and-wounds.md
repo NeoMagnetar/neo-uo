@@ -108,6 +108,44 @@ Possible wound-state effects later may include:
 
 The MVP should not overload wound states with too many penalties at once.
 
+## Experimental Directions
+
+The following ideas have been discussed and should remain preserved as design space:
+
+### Slow Full Recovery Variants
+
+- a player may take a long time to become fully restored
+- full readiness may require safety, shelter, or supply
+- recovery speed may differ greatly from current stock UO assumptions
+
+### Healing Reduction Variants
+
+- direct healing may be heavily reduced
+- potions may be weaker or slower in effect
+- instant full reset should become difficult
+- stabilization and full healing may be very different jobs
+
+### Long-Term Survival Pressure
+
+- a player may survive an encounter but remain vulnerable for a long time
+- this may create extended stalking, evasion, and caution behavior
+- the world may continue to feel dangerous after the fight ends
+
+### Wounded Escape Philosophy
+
+- many important fights may end with someone escaping badly hurt
+- this can become its own kind of story outcome
+- surviving a fight may matter more than cleanly winning it
+
+### Interaction Possibilities Later
+
+- wounds may influence stealth
+- wounds may influence pursuit
+- wounds may influence trace visibility
+- wounds may influence movement or burden management
+
+These are exploratory directions, not finalized timing rules.
+
 ## MVP Version
 
 The MVP should likely include a simplified version of this system:

@@ -123,6 +123,43 @@ Over time, combat should support broader character identity:
 
 This should come through utility and survivability more than unchecked damage inflation.
 
+## Experimental Directions
+
+The following ideas have been discussed and should remain visible as experimentation targets:
+
+### Survivability Direction Variants
+
+- increase player health overall
+- reduce damage output instead of or alongside health increases
+- use wound-state capacity to create survivability without pure HP inflation
+- create stronger distinction between being alive and being fully combat-ready
+
+### Healing Reduction Variants
+
+- heavily reduce healing speed
+- weaken potion and direct recovery loops
+- make reset healing much harder than stabilization healing
+- make prolonged combat pressure more meaningful by preventing easy reset cycles
+
+### Escape-Centric Combat Outcomes
+
+- more fights should turn into escape attempts
+- low-health survival should be a meaningful state rather than just a temporary number
+- combat should often transition into stalking, evasion, or second-contact risk
+
+### Build Breadth Ideas
+
+- broader characters with more survival utility
+- less emphasis on single narrow kill builds
+- more ways to be hardy without becoming oppressive
+
+### World-Connected Combat
+
+- combat outcomes should change movement and route choices
+- burden, wounds, and concealment may eventually influence post-fight options
+
+These are real directions under consideration, not final mechanical commitments.
+
 ## MVP Combat Version
 
 The MVP combat pass should aim to prove only a few things:

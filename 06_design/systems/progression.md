@@ -116,21 +116,41 @@ The main should still matter more:
 - in utility
 - in social weight
 
-## Progression Feel Targets
+## Experimental Directions
 
-Neo UO progression should create:
+The following ideas have been discussed and should remain preserved for future testing:
 
-- long-term attachment
-- meaningful improvement
-- differentiated character history
-- strategic decisions about where and how to train
-- real pain when a developed character is lost
+### Higher Skill Cap Variants
 
-It should avoid:
+- go meaningfully above 700 total skills
+- allow broader hybrid characters over very long-term development
+- make deeper specialization above baseline increasingly difficult
+- allow self-sufficient field-hardened builds without allowing effortless mastery of everything
 
-- instant replacement
-- full-power passive progression
-- pure grind without world meaning
+### Survivor Build Philosophy
+
+- a long-lived player may become more versatile, hardy, and capable
+- growth should support survival, logistics, and utility
+- growth should not mainly become raw burst escalation
+
+### Backup Character Support Variants
+
+- several developing characters may exist at once
+- town-based or protected training may help maintain weak continuity characters
+- a dead main should push the player into a weaker fallback, not total restart emptiness
+
+### Training Environment Variants
+
+- training in the dangerous world should be meaningfully faster
+- training in towns or safer zones may be heavily reduced
+- some skills may require live-world context and cannot be meaningfully macroed in total safety
+
+### Time-Value Philosophy
+
+- long-term characters should feel lived-in
+- replacement should be possible, but slow enough that life still matters
+
+These are preserved experiment targets, not locked economy or skill rules yet.
 
 ## MVP Version
 
