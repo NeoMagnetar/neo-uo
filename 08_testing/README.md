@@ -1,15 +1,14 @@
 # Testing
 
-Status: scaffolded during repo revamp pass one.
-
-## Purpose
-
-Playtest notes, test plans, and validation artifacts.
+Purpose: hold all testing and playtest validation material.
 
 ## What Belongs Here
 
-Status: scaffolded during repo revamp pass one.
+- local test plans
+- balance test notes
+- playtest observations
+- issue patterns discovered through testing
 
 ## Current Status
 
-Status: scaffolded during repo revamp pass one.
+Testing lane initialized for future local prototype work.

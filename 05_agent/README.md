@@ -1,15 +1,14 @@
 # Agent
 
-Status: scaffolded during repo revamp pass one.
-
-## Purpose
-
-Agent handoffs, prompts, workflows, and reusable machine-facing templates.
+Purpose: hold machine-facing project support material.
 
 ## What Belongs Here
 
-Status: scaffolded during repo revamp pass one.
+- agent handoffs
+- prompts
+- repo workflows
+- reusable execution templates
 
 ## Current Status
 
-Status: scaffolded during repo revamp pass one.
+Support lane initialized.

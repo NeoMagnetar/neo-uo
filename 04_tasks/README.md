@@ -1,15 +1,15 @@
 # Tasks
 
-Status: scaffolded during repo revamp pass one.
-
-## Purpose
-
-Execution tracking, backlog, milestones, and active work management.
+Purpose: track current execution state.
 
 ## What Belongs Here
 
-Status: scaffolded during repo revamp pass one.
+- backlog
+- milestones
+- roadmap execution state
+- active work
+- completed work notes later
 
 ## Current Status
 
-Status: scaffolded during repo revamp pass one.
+Initial planning-to-execution bridge established.

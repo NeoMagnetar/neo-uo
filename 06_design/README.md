@@ -1,15 +1,14 @@
 # Design
 
-Status: scaffolded during repo revamp pass one.
-
-## Purpose
-
-Primary game design headquarters and long-term PRD structure.
+Purpose: this is the main design headquarters for Neo UO.
 
 ## What Belongs Here
 
-Status: scaffolded during repo revamp pass one.
+- master PRD
+- roadmap
+- core experience framing
+- system doctrine pages
 
 ## Current Status
 
-Status: scaffolded during repo revamp pass one.
+Core design lane initialized and now populated with first-pass project truth.

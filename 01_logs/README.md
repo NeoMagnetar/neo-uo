@@ -1,15 +1,14 @@
 # Logs
 
-Status: scaffolded during repo revamp pass one.
-
-## Purpose
-
-Change history, decision tracking, and session notes.
+Purpose: record visible project history.
 
 ## What Belongs Here
 
-Status: scaffolded during repo revamp pass one.
+- change log
+- decision log
+- session notes
+- milestone-crossing notes later
 
 ## Current Status
 
-Status: scaffolded during repo revamp pass one.
+Logging structure initialized.

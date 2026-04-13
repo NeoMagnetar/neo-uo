@@ -1,15 +1,15 @@
 # Architecture
 
-Status: scaffolded during repo revamp pass one.
-
-## Purpose
-
-Repo structure, implementation mapping, and systems architecture notes.
+Purpose: map the repo, codebase targets, and technical implementation areas.
 
 ## What Belongs Here
 
-Status: scaffolded during repo revamp pass one.
+- file maps
+- migration notes
+- codebase audit
+- implementation observations
+- future system maps
 
 ## Current Status
 
-Status: scaffolded during repo revamp pass one.
+Early architecture mapping begun.

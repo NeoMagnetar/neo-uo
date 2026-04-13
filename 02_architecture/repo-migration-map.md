@@ -1,15 +1,14 @@
 # Repo Migration Map
 
-Status: scaffolded during repo revamp pass one.
-
 ## Purpose
 
-Status: scaffolded during repo revamp pass one.
+Track meaningful structural changes to the repo so nothing important gets lost during organization passes.
 
 ## Current State
 
-Status: scaffolded during repo revamp pass one.
+Initial revamp adopted the numbered root-lane grammar as the permanent top-level structure.
 
-## Pending Migration Notes
+## Pending Notes
 
-Status: scaffolded during repo revamp pass one.
+- identify any existing files that should be moved into clearer lane ownership
+- keep migration notes explicit instead of silently relocating important content

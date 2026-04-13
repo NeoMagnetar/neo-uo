@@ -1,15 +1,14 @@
 # Operations
 
-Status: scaffolded during repo revamp pass one.
-
-## Purpose
-
-Runbooks, local operations, launcher notes, and release process materials.
+Purpose: hold practical workflow docs for running local development, project operations, and later release routines.
 
 ## What Belongs Here
 
-Status: scaffolded during repo revamp pass one.
+- local startup notes
+- launcher behavior notes
+- operational runbooks
+- release process notes
 
 ## Current Status
 
-Status: scaffolded during repo revamp pass one.
+Minimal operations lane initialized.

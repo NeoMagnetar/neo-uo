@@ -1,15 +1,14 @@
 # Governance
 
-Status: scaffolded during repo revamp pass one.
-
-## Purpose
-
-Project rules, doctrine, and decision framing.
+Purpose: hold the project’s highest-level doctrine, design laws, and decision standards.
 
 ## What Belongs Here
 
-Status: scaffolded during repo revamp pass one.
+- project charter
+- design constitution
+- decision principles
+- future governance notes if the project grows
 
 ## Current Status
 
-Status: scaffolded during repo revamp pass one.
+Initial governance layer established.

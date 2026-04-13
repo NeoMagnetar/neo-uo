@@ -1,15 +1,14 @@
 # Reference
 
-Status: scaffolded during repo revamp pass one.
-
-## Purpose
-
-Glossary, comparison notes, and stable reference materials.
+Purpose: hold glossary, comparison framing, and reference notes.
 
 ## What Belongs Here
 
-Status: scaffolded during repo revamp pass one.
+- internal glossary
+- genre comparison notes
+- source and link references
+- future public framing aids
 
 ## Current Status
 
-Status: scaffolded during repo revamp pass one.
+Initialized.
