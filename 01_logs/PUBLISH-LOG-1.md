@@ -96,7 +96,7 @@ Downloaded and extracted ClassicUO into the isolated client workspace and create
 **Files / Paths Created**  
 - `C:\UO\Client\ClassicUO\`
 - `C:\UO\Client\Launch-ClassicUO-Local.ps1`
-- `C:\Users\Magne\Desktop\Local UO Client.lnk`
+- `<desktop>\Local UO Client.lnk`
 
 **Behavior Impact**  
 - Local client can be launched independently from Outlands
@@ -264,15 +264,15 @@ Backed up the existing ClassicUO active config, created separate environment-spe
 - `C:\UO\Client\ClassicUO\settings.main.json`
 - `C:\UO\Client\ClassicUO\settings.dev.json`
 - `C:\UO\Client\ClassicUO\settings.staging.json`
-- `C:\Users\Magne\Desktop\NeoUO Main.lnk`
-- `C:\Users\Magne\Desktop\NeoUO Dev.lnk`
-- `C:\Users\Magne\Desktop\NeoUO Staging.lnk`
-- `C:\Users\Magne\Desktop\neo uo\03_operations\local-launchers.md`
-- `C:\Users\Magne\Desktop\neo uo\01_logs\SESSION-LOG-2026-04-10-LAUNCHERS.md`
-- `C:\Users\Magne\Desktop\neo-uo-code\tools\NeoUO-Main-Launcher.ps1`
-- `C:\Users\Magne\Desktop\neo-uo-code\tools\NeoUO-Dev-Launcher.ps1`
-- `C:\Users\Magne\Desktop\neo-uo-code\tools\NeoUO-Staging-Launcher.ps1`
-- `C:\Users\Magne\Desktop\neo-uo-code\docs\implementation-notes\local-desktop-launchers.md`
+- `<desktop>\NeoUO Main.lnk`
+- `<desktop>\NeoUO Dev.lnk`
+- `<desktop>\NeoUO Staging.lnk`
+- `03_operations\local-launchers.md`
+- `01_logs\SESSION-LOG-2026-04-10-LAUNCHERS.md`
+- `tools\NeoUO-Main-Launcher.ps1`
+- `tools\NeoUO-Dev-Launcher.ps1`
+- `tools\NeoUO-Staging-Launcher.ps1`
+- `docs\implementation-notes\local-desktop-launchers.md`
 
 **Behavior Impact**  
 - Operator now has one-click startup choices for Main, Dev, and Staging
@@ -298,8 +298,8 @@ A controlled Dev-only retest proved that the previous CharacterCreation patch co
 
 **Files Changed**  
 - `C:\UO\Server\Neo Ultima Online\NeoUO-Dev\Config\Siege.cfg`
-- `C:\Users\Magne\Desktop\neo uo\01_logs\SESSION-LOG-2026-04-10-FELUCCA-START-FIX.md`
-- `C:\Users\Magne\Desktop\neo uo\01_logs\PUBLISH-LOG-1.md`
+- `01_logs\SESSION-LOG-2026-04-10-FELUCCA-START-FIX.md`
+- `01_logs\PUBLISH-LOG-1.md`
 
 **Behavior Impact**  
 - Dev shard now runs with siege mode enabled
@@ -325,8 +325,8 @@ Implemented `NeoWallStart`, `NeoWallStop`, and `NeoWallClear` in the Dev shard a
 
 **Files Changed**  
 - `C:\UO\Server\Neo Ultima Online\NeoUO-Dev\Scripts\Custom\NeoWallPainter.cs`
-- `C:\Users\Magne\Desktop\neo uo\01_logs\SESSION-LOG-2026-04-11-NEOWALL-PAINTER.md`
-- `C:\Users\Magne\Desktop\neo uo\01_logs\PUBLISH-LOG-1.md`
+- `01_logs\SESSION-LOG-2026-04-11-NEOWALL-PAINTER.md`
+- `01_logs\PUBLISH-LOG-1.md`
 
 **Behavior Impact**  
 - Dev GM can now paint wall sections interactively while moving

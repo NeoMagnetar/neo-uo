@@ -2,85 +2,55 @@
 
 ## Current Overall State
 
-Project state: structured pre-production.
+Project state: accepted AIGM companion implementation baseline with client integration entering Phase64D1C.
 
-The repo has moved beyond scaffold-only status and now has a real doctrine spine.
-The next project need is to bridge from design documentation into implementation-target clarity and local testing readiness.
+The repository now tracks both long-range product doctrine and the concrete implementation lane for AIGM companion UMG systems. The accepted baseline through Phase64D1B includes PreviewOnly UMG Composer work, server-authoritative Sleeve access, normalized companion backpacks, and a marker contract for ClassicUO client discovery.
 
-## Phase State
+## Accepted Technical Baseline
 
-### Phase 0 — Foundation and Documentation
+- Phase64C2: Composer authoring PreviewOnly accepted with version encoding repair.
+- Phase64D1A: Companion Sleeve access foundation accepted, PreviewOnly, with server authorization and range validation.
+- Phase64D1B: Companion inventories normalized and client marker accepted with no autonomous item use.
+- Deferred D1A authorized non-GM range matrix: closed.
+- Stock ClassicUO companion marker visibility: deferred to Phase64D1C.
 
-Status: active / nearing stable baseline
+## Current Active Task
 
-### Phase 1 — Playable Local Baseline
+`Phase64D1C - ClassicUO Companion Paperdoll Sleeve Access`
 
-Status: next
+Goal: add a second paperdoll scroll to marker-positive AIGM companion paperdolls in the pinned ClassicUO source, route it through the ordinary `[umgsleeve 0xXXXXXXXX` speech command, and preserve server-side identity, authorization, range, and map checks.
 
-### Phase 2 — Death, Continuity, and Progression Core
+## Queued Tasks
 
-Status: queued after local baseline readiness
-
-### Phase 3 — Hunt and Combat Identity
-
-Status: queued after identity-prototype readiness
-
-### Phase 4 — Closed Playtest
-
-Status: later
-
-### Phase 5 — Arena Mode Prototype
-
-Status: later
-
-### Phase 6 — World Expansion Systems
-
-Status: later
-
-### Phase 7 — Strongholds and Siege Layer
-
-Status: much later
-
-## Current Active Concentration
-
-- tighten the planning spine
-- identify concrete first prototype targets
-- prepare for local test execution
-- preserve identity boundaries before deeper expansion
-
-## Immediate Next Transition
-
-The project should transition from:
-
-documentation-first
-to
-documentation plus prototype-target planning
-
-That means the next practical milestone is not more broad design pages.
-It is clearer mapping from design pages to testable implementation slices.
+- `Phase64D1D - Full Skills-Gump Sleeve Organizer`
+- `Phase64D1E - Selective Sleeve Descent Preview Runtime`
+- movement and waypoint observability after cognition interface work
 
 ## Current Green Lights
 
-The following are now strong enough to guide future work:
+- UMG versions are immutable and rollback-capable.
+- Composer output remains PreviewOnly.
+- Sleeve access is server-authoritative.
+- Companion inventory normalization is accepted.
+- Backpack marker contract is accepted for client discovery.
+- Registered live companion roster is normalized: 22 of 22.
+- Tactical dispatch remains disabled.
+- Autonomous inventory use remains unimplemented.
 
-- core project identity
-- death / continuity direction
-- wound / recovery direction
-- tracking direction
-- scarcity and ecology direction
-- capture and political doctrine direction
+## Current Boundaries
 
-## Current Missing Pieces
+- No custom network packets.
+- No client-side authorization shortcuts.
+- No server inventory migration for D1C.
+- No tactical dispatch.
+- No autonomous item use.
+- No protected server or packet/profile file changes.
+- No public upload of private audit ZIPs, saves, accounts, logs, runtime sidecars, or profiles.
 
-The following still need deeper execution-oriented treatment:
+## Immediate Next Transition
 
-- exact first implementation targets
-- first prototype rulesets
-- local operations details
-- test-case definitions
-- progression specifics
-- combat variable assumptions
+Move from server-only accepted Sleeve access to a reversible, isolated custom-client lane. Phase64D1C is accepted only after the marker-positive paperdoll launcher is built, tested, and proven without weakening server authorization.
 
 ## Current Project Rule
 
-Do not expand sideways faster than the project deepens its center.
+Client affordances may discover server-authorized systems, but ServUO remains the identity and authorization authority.
