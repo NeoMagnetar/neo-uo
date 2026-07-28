@@ -26,6 +26,8 @@ Sleeve access is server authoritative. The current accepted access paths are:
 
 Phase64D1C adds a ClassicUO paperdoll launcher for marker-positive companions. The launcher is only a client discovery affordance and must call the ordinary speech command path. It does not authorize access.
 
+Phase64D1C is now accepted. Marker-positive companion paperdolls display a second UMG Sleeve scroll beside the existing profile scroll. The scroll sends `[umgsleeve 0xXXXXXXXX` through the normal speech path, then ServUO validates registration, authorization, range, map, and Gump access.
+
 ## Backpack Marker Contract
 
 - Layer: `Layer.Backpack`
@@ -38,7 +40,7 @@ The marker is a client discovery hint only. ServUO remains the identity and auth
 
 ## Future Selective Descent
 
-Selective Sleeve Descent remains planned for Phase64D1E Preview work. It is not implemented in the accepted D1B baseline and is not part of D1C.
+Selective Sleeve Descent remains planned for Phase64D1E Preview work. It is not implemented in the accepted D1C baseline and is not part of D1D.
 
 ## Rule
 

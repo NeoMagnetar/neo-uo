@@ -2,7 +2,7 @@
 
 ## Status
 
-Active.
+Complete.
 
 ## Objective
 
@@ -34,14 +34,27 @@ MarkerVersion is server metadata. The ClassicUO launcher does not need to read i
 
 ## Required Client Behavior
 
-- Display no UMG scroll on the player paperdoll.
-- Preserve the player profile and party-manifest scrolls.
-- Preserve the existing non-player profile scroll.
-- Add a second scroll beside it for marker-positive AIGM companion candidates.
-- Revalidate the marker before double-click.
-- Use the ordinary `[umgsleeve 0xXXXXXXXX` speech command path.
-- Remove the scroll if the marker disappears.
-- Avoid duplicate controls and paperdoll rebuild flicker.
+- Displayed no UMG scroll on the player paperdoll.
+- Preserved the player profile and party-manifest scrolls.
+- Preserved the existing non-player profile scroll.
+- Added a second scroll beside it for marker-positive AIGM companion candidates.
+- Revalidated the marker before double-click.
+- Used the ordinary `[umgsleeve 0xXXXXXXXX` speech command path.
+- Removed the scroll if the marker disappeared.
+- Avoided duplicate controls and paperdoll rebuild flicker.
+
+## Acceptance
+
+Verdict:
+
+`PHASE64D1C_CLASSICUO_COMPANION_PAPERDOLL_SLEEVE_ACCESS_ACCEPTED_SERVER_AUTHORIZED`
+
+Final client hashes:
+
+- `cuo.dll`: `722D511EC94B6C6C10989454BEE3659E7E61075E27CB5C7B589E05100DED09FD`
+- `cuo.pdb`: `9F759AAA665A5807ED9146D1A1FA55848C5AB6D594363B8A607CEBB8AD833BE1`
+
+The live client was deployed by replacing only `cuo.dll` and `cuo.pdb`; `ClassicUO.exe` was not replaced.
 
 ## Server Authority Rule
 

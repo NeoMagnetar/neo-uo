@@ -35,7 +35,8 @@ The current accepted baseline includes:
 - normalized companion inventories for the registered live AIGM roster
 - a server-authoritative backpack marker contract for client discovery
 - a reproducible ClassicUO NativeAOT build lane
-- custom client work beginning in Phase64D1C
+- accepted ClassicUO companion paperdoll Sleeve access through a source-only client overlay
+- a reversible live-client deployment lane with rollback artifacts preserved
 
 Accepted server hash:
 
@@ -49,11 +50,10 @@ Accepted UMG version baseline hash:
 
 Active task:
 
-`Phase64D1C - ClassicUO Companion Paperdoll Sleeve Access`
+`Phase64D1D - Full Skills-Gump Sleeve Organizer`
 
 Next queued tasks:
 
-- `Phase64D1D - Full Skills-Gump Sleeve Organizer`
 - `Phase64D1E - Selective Sleeve Descent Preview Runtime`
 - movement and waypoint observability after cognition interface work
 
