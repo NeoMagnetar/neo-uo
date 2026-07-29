@@ -37,10 +37,12 @@ The current accepted baseline includes:
 - a reproducible ClassicUO NativeAOT build lane
 - accepted ClassicUO companion paperdoll Sleeve access through a source-only client overlay
 - a reversible live-client deployment lane with rollback artifacts preserved
+- accepted server-side Skills-Gump Sleeve organizer with Operational Layout Schema Version 1
+- immutable Draft and Approved PreviewOnly layout versions with compare and rollback-by-clone
 
 Accepted server hash:
 
-`4AC823D6532C723FC4ADD0A128E2FBE35A1A4C8F3E09DE0101832090AA7F3FF0`
+`EE6956036DDD769E052CD42FACC16751C4411B8EF0C32142A862F71AAE2BE8F2`
 
 Accepted UMG version baseline hash:
 
@@ -50,11 +52,10 @@ Accepted UMG version baseline hash:
 
 Active task:
 
-`Phase64D1D - Full Skills-Gump Sleeve Organizer`
+`Phase64D1E - Selective Sleeve Descent Preview Runtime`
 
 Next queued tasks:
 
-- `Phase64D1E - Selective Sleeve Descent Preview Runtime`
 - movement and waypoint observability after cognition interface work
 
 ## Publication Boundary

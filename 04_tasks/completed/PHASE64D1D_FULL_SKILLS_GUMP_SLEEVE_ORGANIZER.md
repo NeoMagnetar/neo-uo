@@ -2,7 +2,7 @@
 
 ## Status
 
-Active next.
+Complete.
 
 ## Objective
 
@@ -31,6 +31,14 @@ Expand the accepted Sleeve Selector into a fuller Skills-style organizer for UMG
 ## Expected Direction
 
 D1D should make the Sleeve organization experience richer and clearer, likely in the same family as Ultima Online's Skills gump. It should remain a server Gump or server-authoritative flow unless a later task explicitly opens a new client surface.
+
+## Completion
+
+Accepted as `PHASE64D1D_FULL_SKILLS_GUMP_SLEEVE_ORGANIZER_ACCEPTED_PREVIEW_ONLY`.
+
+Final server hash:
+
+`EE6956036DDD769E052CD42FACC16751C4411B8EF0C32142A862F71AAE2BE8F2`
 
 ## Queued Afterward
 

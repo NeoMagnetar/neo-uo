@@ -2,9 +2,9 @@
 
 ## Current Overall State
 
-Project state: accepted AIGM companion implementation baseline with ClassicUO paperdoll Sleeve access accepted through Phase64D1C.
+Project state: accepted AIGM companion implementation baseline with full Skills-Gump Sleeve organizer accepted through Phase64D1D.
 
-The repository now tracks both long-range product doctrine and the concrete implementation lane for AIGM companion UMG systems. The accepted baseline through Phase64D1C includes PreviewOnly UMG Composer work, server-authoritative Sleeve access, normalized companion backpacks, a marker contract for ClassicUO client discovery, and a deployed paperdoll launcher that uses the ordinary speech command path.
+The repository now tracks both long-range product doctrine and the concrete implementation lane for AIGM companion UMG systems. The accepted baseline through Phase64D1D includes PreviewOnly UMG Composer work, server-authoritative Sleeve access, normalized companion backpacks, a marker contract for ClassicUO client discovery, a deployed paperdoll launcher, and a server-side Skills-Gump organizer with immutable PreviewOnly layout versions.
 
 ## Accepted Technical Baseline
 
@@ -12,18 +12,18 @@ The repository now tracks both long-range product doctrine and the concrete impl
 - Phase64D1A: Companion Sleeve access foundation accepted, PreviewOnly, with server authorization and range validation.
 - Phase64D1B: Companion inventories normalized and client marker accepted with no autonomous item use.
 - Phase64D1C: ClassicUO companion paperdoll Sleeve access accepted, server-authorized.
+- Phase64D1D: Full Skills-Gump Sleeve organizer accepted, PreviewOnly, with serial-specific Operational Layout history.
 - Deferred D1A authorized non-GM range matrix: closed.
 - Stock ClassicUO companion marker visibility: closed by Phase64D1C.
 
 ## Current Active Task
 
-`Phase64D1D - Full Skills-Gump Sleeve Organizer`
+`Phase64D1E - Selective Sleeve Descent Preview Runtime`
 
-Goal: replace the simple Sleeve Selector surface with a fuller Skills-style organizer while preserving PreviewOnly execution and server authority.
+Goal: evaluate approved organized Sleeves in a PreviewOnly descent pass that emits transparent receipts without dispatching tactical behavior.
 
 ## Queued Tasks
 
-- `Phase64D1E - Selective Sleeve Descent Preview Runtime`
 - movement and waypoint observability after cognition interface work
 
 ## Current Green Lights
@@ -34,6 +34,7 @@ Goal: replace the simple Sleeve Selector surface with a fuller Skills-style orga
 - Companion inventory normalization is accepted.
 - Backpack marker contract is accepted for client discovery.
 - ClassicUO paperdoll launcher is accepted for marker-positive companions.
+- Skills-Gump Sleeve organizer is accepted for serial-specific companion Operational Layouts.
 - Registered live companion roster is normalized: 22 of 22.
 - Tactical dispatch remains disabled.
 - Autonomous inventory use remains unimplemented.
@@ -50,7 +51,7 @@ Goal: replace the simple Sleeve Selector surface with a fuller Skills-style orga
 
 ## Immediate Next Transition
 
-Move from a simple paperdoll launcher into a fuller Sleeve organization interface. Phase64D1D must keep the same server-authoritative boundary and must not introduce tactical dispatch or autonomous inventory use.
+Move from saved organization into Selective Sleeve Descent Preview Runtime. Phase64D1E must keep PreviewOnly receipts separate from tactical dispatch.
 
 ## Current Project Rule
 
