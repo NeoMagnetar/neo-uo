@@ -14,9 +14,9 @@
 
 ## Where the shortcuts were placed
 
-- `C:\Users\Magne\Desktop\NeoUO Main.lnk`
-- `C:\Users\Magne\Desktop\NeoUO Dev.lnk`
-- `C:\Users\Magne\Desktop\NeoUO Staging.lnk`
+- `<desktop>\NeoUO Main.lnk`
+- `<desktop>\NeoUO Dev.lnk`
+- `<desktop>\NeoUO Staging.lnk`
 
 ## How environment routing works
 

@@ -132,3 +132,8 @@ The next work should favor:
 - implementation-target clarity
 - local test readiness
 - identity proof over breadth
+
+## AIGM Runtime Queue
+
+- Phase64D1F - Movement and Waypoint Observability: active next implementation lane after D1E Preview receipts.
+- Sparse Waypoint Editor and Recovery Network: queued after movement observability establishes a safe read-only baseline.
