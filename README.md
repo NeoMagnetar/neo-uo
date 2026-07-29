@@ -39,10 +39,11 @@ The current accepted baseline includes:
 - a reversible live-client deployment lane with rollback artifacts preserved
 - accepted server-side Skills-Gump Sleeve organizer with Operational Layout Schema Version 1
 - immutable Draft and Approved PreviewOnly layout versions with compare and rollback-by-clone
+- accepted Selective Sleeve Descent Preview runtime with deterministic branch selection, receipts, and no dispatch
 
 Accepted server hash:
 
-`EE6956036DDD769E052CD42FACC16751C4411B8EF0C32142A862F71AAE2BE8F2`
+`54BA81F2B995AAD5C4068EE1ABCC66CDE15888C77AF1258E27B2EC7FC524A6A8`
 
 Accepted UMG version baseline hash:
 
@@ -52,11 +53,11 @@ Accepted UMG version baseline hash:
 
 Active task:
 
-`Phase64D1E - Selective Sleeve Descent Preview Runtime`
+`Phase64D1F - Movement and Waypoint Observability`
 
 Next queued tasks:
 
-- movement and waypoint observability after cognition interface work
+- sparse waypoint editor and recovery network
 
 ## Publication Boundary
 
